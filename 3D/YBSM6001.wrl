@@ -1,0 +1,4750 @@
+#VRML V2.0 utf8
+
+WorldInfo {
+	info [ "File created using CATIA" ]
+}
+NavigationInfo {
+	type [ "EXAMINE" , "WALK" , "FLY" ]
+}
+Background {
+	skyColor [ 0 0 0 ]
+}
+Viewpoint {
+	position      -0.015384 -0.015477 0.032602
+	orientation   0.682817 -0.483444 -0.547762 0.729569
+	fieldOfView   0.471225
+	description   "Main Viewpoint"
+}
+Viewpoint {
+	position      0.020641 0.019471 0.023748
+	orientation   0.187053 0.451587 0.872399 2.448076
+	fieldOfView   0.471225
+	description   "Iso View"
+}
+Viewpoint {
+	position      0.035946 -0.001437 0.002841
+	orientation   0.577350 0.577350 0.577350 2.094395
+	fieldOfView   0.471225
+	description   "Front View"
+}
+Viewpoint {
+	position      -0.036480 -0.001437 0.002841
+	orientation   0.577350 -0.577350 -0.577350 2.094395
+	fieldOfView   0.471225
+	description   "Back View"
+}
+Viewpoint {
+	position      -0.000267 -0.037649 0.002841
+	orientation   1.000000 -0.000173 0.000173 1.570796
+	fieldOfView   0.471225
+	description   "Left View"
+}
+Viewpoint {
+	position      -0.000267 0.034776 0.002841
+	orientation   -0.000122 -0.707107 -0.707107 3.141348
+	fieldOfView   0.471225
+	description   "Right View"
+}
+Viewpoint {
+	position      -0.000267 -0.001437 0.039054
+	orientation   0.000000 0.000000 1.000000 1.570796
+	fieldOfView   0.471225
+	description   "Top View"
+}
+Viewpoint {
+	position      -0.000267 -0.001437 -0.033372
+	orientation   0.707107 0.707107 0.000000 3.141593
+	fieldOfView   0.471225
+	description   "Bottom View"
+}
+Transform {
+	scale         0.001 0.001 0.001
+	children [
+Group {
+	children [
+Group {
+	children [
+Group {
+	children [
+DEF _0464FB88 Group {
+	children [
+Shape {
+appearance Appearance {
+	material DEF _material0 Material {
+		diffuseColor  0.823529 0.823529 1
+	}
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.37894 -1.8 -0.0029129,
+		 4.37894 -3.2 -0.0029129,
+		 4.92058 -3.2 -0.0029129,
+		 4.92058 -1.8 -0.0029129,
+		]
+	}
+coordIndex [
+ 0,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.43777 -3.2 -0.297087,
+		 4.43777 -1.8 -0.297087,
+		 4.97942 -1.8 -0.297087,
+		 4.97942 -3.2 -0.297087,
+		]
+	}
+coordIndex [
+ 0,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.97942 -1.8 -0.297087,
+		 4.97942 -3.2 -0.297087,
+		 4.92058 -3.2 -0.0029129,
+		 4.92058 -1.8 -0.0029129,
+		]
+	}
+coordIndex [
+ 1,0,2,-1,
+ 0,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.25277 -3.2 0.156409,
+		 4.28628 -3.2 0.0533283,
+		 4.37894 -3.2 -0.0029129,
+		 4.37894 -1.8 -0.0029129,
+		 4.28628 -1.8 0.0533283,
+		 4.25277 -1.8 0.156409,
+		]
+	}
+normal Normal {
+	vector	[
+		0.999153 -0 -0.0411567,
+		0.783955 -0 0.620817,
+		0.188916 -0 0.981993,
+		0.188916 -0 0.981993,
+		0.783955 -0 0.620817,
+		0.999153 -0 -0.0411567,
+		]
+	}
+coordIndex [
+ 5,0,4,-1,
+ 0,1,4,-1,
+ 4,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.1389 -3.2 -0.207972,
+		 4.43777 -3.2 -0.297087,
+		 4.43777 -1.8 -0.297087,
+		 4.1389 -1.8 -0.207972,
+		 3.97058 -1.8 0.0545869,
+		 3.97058 -3.2 0.0545869,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.601398 0 -0.798949,
+		0.065656 0 -0.997842,
+		0.065656 0 -0.997842,
+		-0.601398 0 -0.798949,
+		-0.977063 0 -0.21295,
+		-0.977063 0 -0.21295,
+		]
+	}
+coordIndex [
+ 5,4,0,-1,
+ 4,3,0,-1,
+ 0,3,1,-1,
+ 3,2,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.17235 -1.8 0.692557,
+		 4.17235 -3.2 0.692557,
+		 4.25277 -3.2 0.156409,
+		 4.25277 -1.8 0.156409,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.89016 -3.2 0.590736,
+		 3.89016 -1.8 0.590736,
+		 3.97058 -1.8 0.0545869,
+		 3.97058 -3.2 0.0545869,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.17235 -3.2 0.692557,
+		 4.03799 -3.2 0.926823,
+		 3.79341 -3.2 1.04132,
+		 3.79341 -1.8 1.04132,
+		 4.03799 -1.8 0.926823,
+		 4.17235 -1.8 0.692557,
+		]
+	}
+normal Normal {
+	vector	[
+		0.977063 0 0.21295,
+		0.677198 0 0.735801,
+		0.131312 -0 0.991341,
+		0.131312 -0 0.991341,
+		0.677198 0 0.735801,
+		0.977063 0 0.21295,
+		]
+	}
+coordIndex [
+ 0,5,1,-1,
+ 5,4,1,-1,
+ 1,4,2,-1,
+ 4,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.86558 -3.2 0.681317,
+		 3.79341 -3.2 0.741319,
+		 3.79341 -1.8 0.741319,
+		 3.86558 -1.8 0.681317,
+		 3.89016 -1.8 0.590736,
+		 3.89016 -3.2 0.590736,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.841314 -0 -0.540547,
+		-0.377832 -0 -0.925874,
+		-0.377832 -0 -0.925874,
+		-0.841314 -0 -0.540547,
+		-0.999153 -0 0.0411567,
+		-0.999153 -0 0.0411567,
+		]
+	}
+coordIndex [
+ 4,5,3,-1,
+ 5,0,3,-1,
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.37894 3.2 -0.0029129,
+		 4.37894 1.8 -0.0029129,
+		 4.92058 1.8 -0.0029129,
+		 4.92058 3.2 -0.0029129,
+		]
+	}
+coordIndex [
+ 0,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.43777 1.8 -0.297087,
+		 4.43777 3.2 -0.297087,
+		 4.97942 3.2 -0.297087,
+		 4.97942 1.8 -0.297087,
+		]
+	}
+coordIndex [
+ 0,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.97942 3.2 -0.297087,
+		 4.97942 1.8 -0.297087,
+		 4.92058 1.8 -0.0029129,
+		 4.92058 3.2 -0.0029129,
+		]
+	}
+coordIndex [
+ 1,0,2,-1,
+ 0,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.25277 1.8 0.156409,
+		 4.28628 1.8 0.0533283,
+		 4.37894 1.8 -0.0029129,
+		 4.37894 3.2 -0.0029129,
+		 4.28628 3.2 0.0533283,
+		 4.25277 3.2 0.156409,
+		]
+	}
+normal Normal {
+	vector	[
+		0.999153 -0 -0.0411567,
+		0.783955 -0 0.620817,
+		0.188916 -0 0.981993,
+		0.188916 -0 0.981993,
+		0.783955 -0 0.620817,
+		0.999153 -0 -0.0411567,
+		]
+	}
+coordIndex [
+ 5,0,4,-1,
+ 0,1,4,-1,
+ 4,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.1389 1.8 -0.207972,
+		 4.43777 1.8 -0.297087,
+		 4.43777 3.2 -0.297087,
+		 4.1389 3.2 -0.207972,
+		 3.97058 3.2 0.0545869,
+		 3.97058 1.8 0.0545869,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.601398 0 -0.798949,
+		0.065656 0 -0.997842,
+		0.065656 0 -0.997842,
+		-0.601398 0 -0.798949,
+		-0.977063 0 -0.21295,
+		-0.977063 0 -0.21295,
+		]
+	}
+coordIndex [
+ 5,4,0,-1,
+ 4,3,0,-1,
+ 0,3,1,-1,
+ 3,2,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.17235 3.2 0.692557,
+		 4.17235 1.8 0.692557,
+		 4.25277 1.8 0.156409,
+		 4.25277 3.2 0.156409,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.89016 1.8 0.590736,
+		 3.89016 3.2 0.590736,
+		 3.97058 3.2 0.0545869,
+		 3.97058 1.8 0.0545869,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.17235 1.8 0.692557,
+		 4.03799 1.8 0.926823,
+		 3.79341 1.8 1.04132,
+		 3.79341 3.2 1.04132,
+		 4.03799 3.2 0.926823,
+		 4.17235 3.2 0.692557,
+		]
+	}
+normal Normal {
+	vector	[
+		0.977063 0 0.21295,
+		0.677198 0 0.735801,
+		0.131312 -0 0.991341,
+		0.131312 -0 0.991341,
+		0.677198 0 0.735801,
+		0.977063 0 0.21295,
+		]
+	}
+coordIndex [
+ 0,5,1,-1,
+ 5,4,1,-1,
+ 1,4,2,-1,
+ 4,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.86558 1.8 0.681317,
+		 3.79341 1.8 0.741319,
+		 3.79341 3.2 0.741319,
+		 3.86558 3.2 0.681317,
+		 3.89016 3.2 0.590736,
+		 3.89016 1.8 0.590736,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.841314 -0 -0.540547,
+		-0.377832 -0 -0.925874,
+		-0.377832 -0 -0.925874,
+		-0.841314 -0 -0.540547,
+		-0.999153 -0 0.0411567,
+		-0.999153 -0 0.0411567,
+		]
+	}
+coordIndex [
+ 4,5,3,-1,
+ 5,0,3,-1,
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.5 -1.8 1.1,
+		 3.5 -3.2 1.1,
+		 3.79341 -3.2 1.04132,
+		 3.79341 -1.8 1.04132,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.5 -3.2 0.8,
+		 3.5 -1.8 0.8,
+		 3.79341 -1.8 0.741319,
+		 3.79341 -3.2 0.741319,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.86558 -1.8 0.681317,
+		 3.79341 -1.8 0.741319,
+		 3.5 -1.8 0.8,
+		 3.5 -1.8 1.1,
+		 3.79341 -1.8 1.04132,
+		 4.03799 -1.8 0.926823,
+		 4.17235 -1.8 0.692557,
+		 4.25277 -1.8 0.156409,
+		 4.28628 -1.8 0.0533283,
+		 4.37894 -1.8 -0.0029129,
+		 4.92058 -1.8 -0.0029129,
+		 4.97942 -1.8 -0.297087,
+		 4.43777 -1.8 -0.297087,
+		 4.1389 -1.8 -0.207972,
+		 3.97058 -1.8 0.0545869,
+		 3.89016 -1.8 0.590736,
+		]
+	}
+coordIndex [
+ 10,11,9,-1,
+ 11,12,9,-1,
+ 9,12,8,-1,
+ 12,13,8,-1,
+ 8,13,7,-1,
+ 6,7,5,-1,
+ 7,13,5,-1,
+ 5,13,15,-1,
+ 13,14,15,-1,
+ 4,5,15,-1,
+ 4,15,0,-1,
+ 4,0,1,-1,
+ 4,1,3,-1,
+ 2,3,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.03799 -3.2 0.926823,
+		 3.79341 -3.2 1.04132,
+		 3.5 -3.2 1.1,
+		 3.5 -3.2 0.8,
+		 3.79341 -3.2 0.741319,
+		 3.86558 -3.2 0.681317,
+		 3.89016 -3.2 0.590736,
+		 3.97058 -3.2 0.0545869,
+		 4.1389 -3.2 -0.207972,
+		 4.43777 -3.2 -0.297087,
+		 4.97942 -3.2 -0.297087,
+		 4.92058 -3.2 -0.0029129,
+		 4.37894 -3.2 -0.0029129,
+		 4.28628 -3.2 0.0533283,
+		 4.25277 -3.2 0.156409,
+		 4.17235 -3.2 0.692557,
+		]
+	}
+coordIndex [
+ 2,4,1,-1,
+ 4,5,1,-1,
+ 1,5,0,-1,
+ 12,9,11,-1,
+ 9,10,11,-1,
+ 6,7,8,-1,
+ 6,8,0,-1,
+ 6,0,5,-1,
+ 8,9,12,-1,
+ 8,12,13,-1,
+ 8,13,14,-1,
+ 8,14,15,-1,
+ 8,15,0,-1,
+ 3,4,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.5 3.2 1.1,
+		 3.5 1.8 1.1,
+		 3.79341 1.8 1.04132,
+		 3.79341 3.2 1.04132,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.5 1.8 0.8,
+		 3.5 3.2 0.8,
+		 3.79341 3.2 0.741319,
+		 3.79341 1.8 0.741319,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.86558 3.2 0.681317,
+		 3.79341 3.2 0.741319,
+		 3.5 3.2 0.8,
+		 3.5 3.2 1.1,
+		 3.79341 3.2 1.04132,
+		 4.03799 3.2 0.926823,
+		 4.17235 3.2 0.692557,
+		 4.25277 3.2 0.156409,
+		 4.28628 3.2 0.0533283,
+		 4.37894 3.2 -0.0029129,
+		 4.92058 3.2 -0.0029129,
+		 4.97942 3.2 -0.297087,
+		 4.43777 3.2 -0.297087,
+		 4.1389 3.2 -0.207972,
+		 3.97058 3.2 0.0545869,
+		 3.89016 3.2 0.590736,
+		]
+	}
+coordIndex [
+ 10,11,9,-1,
+ 11,12,9,-1,
+ 9,12,8,-1,
+ 12,13,8,-1,
+ 8,13,7,-1,
+ 6,7,5,-1,
+ 7,13,5,-1,
+ 5,13,15,-1,
+ 13,14,15,-1,
+ 4,5,15,-1,
+ 4,15,0,-1,
+ 4,0,1,-1,
+ 4,1,3,-1,
+ 2,3,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 4.03799 1.8 0.926823,
+		 3.79341 1.8 1.04132,
+		 3.5 1.8 1.1,
+		 3.5 1.8 0.8,
+		 3.79341 1.8 0.741319,
+		 3.86558 1.8 0.681317,
+		 3.89016 1.8 0.590736,
+		 3.97058 1.8 0.0545869,
+		 4.1389 1.8 -0.207972,
+		 4.43777 1.8 -0.297087,
+		 4.97942 1.8 -0.297087,
+		 4.92058 1.8 -0.0029129,
+		 4.37894 1.8 -0.0029129,
+		 4.28628 1.8 0.0533283,
+		 4.25277 1.8 0.156409,
+		 4.17235 1.8 0.692557,
+		]
+	}
+coordIndex [
+ 2,4,1,-1,
+ 4,5,1,-1,
+ 1,5,0,-1,
+ 12,9,11,-1,
+ 9,10,11,-1,
+ 6,7,8,-1,
+ 6,8,0,-1,
+ 6,0,5,-1,
+ 8,9,12,-1,
+ 8,12,13,-1,
+ 8,13,14,-1,
+ 8,14,15,-1,
+ 8,15,0,-1,
+ 3,4,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.92058 -3.2 -0.0029129,
+		 -4.37894 -3.2 -0.0029129,
+		 -4.37894 -1.8 -0.0029129,
+		 -4.92058 -1.8 -0.0029129,
+		]
+	}
+coordIndex [
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.97942 -1.8 -0.297087,
+		 -4.43777 -1.8 -0.297087,
+		 -4.43777 -3.2 -0.297087,
+		 -4.97942 -3.2 -0.297087,
+		]
+	}
+coordIndex [
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.97942 -1.8 -0.297087,
+		 -4.97942 -3.2 -0.297087,
+		 -4.92058 -3.2 -0.0029129,
+		 -4.92058 -1.8 -0.0029129,
+		]
+	}
+coordIndex [
+ 0,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.28628 -1.8 0.0533283,
+		 -4.37894 -1.8 -0.0029129,
+		 -4.37894 -3.2 -0.0029129,
+		 -4.28628 -3.2 0.0533283,
+		 -4.25277 -3.2 0.156409,
+		 -4.25277 -1.8 0.156409,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.783955 -0 0.620817,
+		-0.188916 -0 0.981993,
+		-0.188916 -0 0.981993,
+		-0.783955 -0 0.620817,
+		-0.999153 -0 -0.0411567,
+		-0.999153 -0 -0.0411567,
+		]
+	}
+coordIndex [
+ 4,5,3,-1,
+ 5,0,3,-1,
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.97058 -1.8 0.0545869,
+		 -4.1389 -1.8 -0.207972,
+		 -4.43777 -1.8 -0.297087,
+		 -4.43777 -3.2 -0.297087,
+		 -4.1389 -3.2 -0.207972,
+		 -3.97058 -3.2 0.0545869,
+		]
+	}
+normal Normal {
+	vector	[
+		0.977063 0 -0.21295,
+		0.601398 0 -0.798949,
+		-0.065656 0 -0.997842,
+		-0.065656 0 -0.997842,
+		0.601398 0 -0.798949,
+		0.977063 0 -0.21295,
+		]
+	}
+coordIndex [
+ 0,5,1,-1,
+ 5,4,1,-1,
+ 1,4,2,-1,
+ 4,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.17235 -1.8 0.692557,
+		 -4.17235 -3.2 0.692557,
+		 -4.25277 -3.2 0.156409,
+		 -4.25277 -1.8 0.156409,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.89016 -3.2 0.590736,
+		 -3.89016 -1.8 0.590736,
+		 -3.97058 -1.8 0.0545869,
+		 -3.97058 -3.2 0.0545869,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.03799 -1.8 0.926823,
+		 -3.79341 -1.8 1.04132,
+		 -3.79341 -3.2 1.04132,
+		 -4.03799 -3.2 0.926823,
+		 -4.17235 -3.2 0.692557,
+		 -4.17235 -1.8 0.692557,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.677198 0 0.735801,
+		-0.131312 0 0.991341,
+		-0.131312 0 0.991341,
+		-0.677198 0 0.735801,
+		-0.977063 0 0.21295,
+		-0.977063 0 0.21295,
+		]
+	}
+coordIndex [
+ 5,4,0,-1,
+ 4,3,0,-1,
+ 0,3,1,-1,
+ 3,2,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.89016 -1.8 0.590736,
+		 -3.86558 -1.8 0.681317,
+		 -3.79341 -1.8 0.741319,
+		 -3.79341 -3.2 0.741319,
+		 -3.86558 -3.2 0.681317,
+		 -3.89016 -3.2 0.590736,
+		]
+	}
+normal Normal {
+	vector	[
+		0.999153 -0 0.0411567,
+		0.841314 -0 -0.540547,
+		0.377832 -0 -0.925874,
+		0.377832 -0 -0.925874,
+		0.841314 -0 -0.540547,
+		0.999153 -0 0.0411567,
+		]
+	}
+coordIndex [
+ 5,0,4,-1,
+ 0,1,4,-1,
+ 4,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.92058 1.8 -0.0029129,
+		 -4.37894 1.8 -0.0029129,
+		 -4.37894 3.2 -0.0029129,
+		 -4.92058 3.2 -0.0029129,
+		]
+	}
+coordIndex [
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.97942 3.2 -0.297087,
+		 -4.43777 3.2 -0.297087,
+		 -4.43777 1.8 -0.297087,
+		 -4.97942 1.8 -0.297087,
+		]
+	}
+coordIndex [
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.97942 3.2 -0.297087,
+		 -4.97942 1.8 -0.297087,
+		 -4.92058 1.8 -0.0029129,
+		 -4.92058 3.2 -0.0029129,
+		]
+	}
+coordIndex [
+ 0,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.28628 3.2 0.0533283,
+		 -4.37894 3.2 -0.0029129,
+		 -4.37894 1.8 -0.0029129,
+		 -4.28628 1.8 0.0533283,
+		 -4.25277 1.8 0.156409,
+		 -4.25277 3.2 0.156409,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.783955 -0 0.620817,
+		-0.188916 -0 0.981993,
+		-0.188916 -0 0.981993,
+		-0.783955 -0 0.620817,
+		-0.999153 -0 -0.0411567,
+		-0.999153 -0 -0.0411567,
+		]
+	}
+coordIndex [
+ 4,5,3,-1,
+ 5,0,3,-1,
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.97058 3.2 0.0545869,
+		 -4.1389 3.2 -0.207972,
+		 -4.43777 3.2 -0.297087,
+		 -4.43777 1.8 -0.297087,
+		 -4.1389 1.8 -0.207972,
+		 -3.97058 1.8 0.0545869,
+		]
+	}
+normal Normal {
+	vector	[
+		0.977063 0 -0.21295,
+		0.601398 0 -0.798949,
+		-0.065656 0 -0.997842,
+		-0.065656 0 -0.997842,
+		0.601398 0 -0.798949,
+		0.977063 0 -0.21295,
+		]
+	}
+coordIndex [
+ 0,5,1,-1,
+ 5,4,1,-1,
+ 1,4,2,-1,
+ 4,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.17235 3.2 0.692557,
+		 -4.17235 1.8 0.692557,
+		 -4.25277 1.8 0.156409,
+		 -4.25277 3.2 0.156409,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.89016 1.8 0.590736,
+		 -3.89016 3.2 0.590736,
+		 -3.97058 3.2 0.0545869,
+		 -3.97058 1.8 0.0545869,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.03799 3.2 0.926823,
+		 -3.79341 3.2 1.04132,
+		 -3.79341 1.8 1.04132,
+		 -4.03799 1.8 0.926823,
+		 -4.17235 1.8 0.692557,
+		 -4.17235 3.2 0.692557,
+		]
+	}
+normal Normal {
+	vector	[
+		-0.677198 0 0.735801,
+		-0.131312 0 0.991341,
+		-0.131312 0 0.991341,
+		-0.677198 0 0.735801,
+		-0.977063 0 0.21295,
+		-0.977063 0 0.21295,
+		]
+	}
+coordIndex [
+ 5,4,0,-1,
+ 4,3,0,-1,
+ 0,3,1,-1,
+ 3,2,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.89016 3.2 0.590736,
+		 -3.86558 3.2 0.681317,
+		 -3.79341 3.2 0.741319,
+		 -3.79341 1.8 0.741319,
+		 -3.86558 1.8 0.681317,
+		 -3.89016 1.8 0.590736,
+		]
+	}
+normal Normal {
+	vector	[
+		0.999153 -0 0.0411567,
+		0.841314 -0 -0.540547,
+		0.377832 -0 -0.925874,
+		0.377832 -0 -0.925874,
+		0.841314 -0 -0.540547,
+		0.999153 -0 0.0411567,
+		]
+	}
+coordIndex [
+ 5,0,4,-1,
+ 0,1,4,-1,
+ 4,1,3,-1,
+ 1,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 -1.8 1.1,
+		 -3.5 -3.2 1.1,
+		 -3.79341 -3.2 1.04132,
+		 -3.79341 -1.8 1.04132,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 -3.2 0.8,
+		 -3.5 -1.8 0.8,
+		 -3.79341 -1.8 0.741319,
+		 -3.79341 -3.2 0.741319,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.97058 -1.8 0.0545869,
+		 -4.1389 -1.8 -0.207972,
+		 -4.43777 -1.8 -0.297087,
+		 -4.97942 -1.8 -0.297087,
+		 -4.92058 -1.8 -0.0029129,
+		 -4.37894 -1.8 -0.0029129,
+		 -4.28628 -1.8 0.0533283,
+		 -4.25277 -1.8 0.156409,
+		 -4.17235 -1.8 0.692557,
+		 -4.03799 -1.8 0.926823,
+		 -3.79341 -1.8 1.04132,
+		 -3.5 -1.8 1.1,
+		 -3.5 -1.8 0.8,
+		 -3.79341 -1.8 0.741319,
+		 -3.86558 -1.8 0.681317,
+		 -3.89016 -1.8 0.590736,
+		]
+	}
+coordIndex [
+ 13,10,12,-1,
+ 10,11,12,-1,
+ 8,0,7,-1,
+ 0,1,7,-1,
+ 7,1,6,-1,
+ 6,1,5,-1,
+ 1,2,5,-1,
+ 5,2,4,-1,
+ 2,3,4,-1,
+ 9,10,13,-1,
+ 9,13,14,-1,
+ 9,14,15,-1,
+ 9,15,0,-1,
+ 9,0,8,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.25277 -3.2 0.156409,
+		 -4.28628 -3.2 0.0533283,
+		 -4.37894 -3.2 -0.0029129,
+		 -4.92058 -3.2 -0.0029129,
+		 -4.97942 -3.2 -0.297087,
+		 -4.43777 -3.2 -0.297087,
+		 -4.1389 -3.2 -0.207972,
+		 -3.97058 -3.2 0.0545869,
+		 -3.89016 -3.2 0.590736,
+		 -3.86558 -3.2 0.681317,
+		 -3.79341 -3.2 0.741319,
+		 -3.5 -3.2 0.8,
+		 -3.5 -3.2 1.1,
+		 -3.79341 -3.2 1.04132,
+		 -4.03799 -3.2 0.926823,
+		 -4.17235 -3.2 0.692557,
+		]
+	}
+coordIndex [
+ 11,12,10,-1,
+ 12,13,10,-1,
+ 10,13,9,-1,
+ 13,14,9,-1,
+ 9,14,8,-1,
+ 8,14,7,-1,
+ 14,15,7,-1,
+ 7,15,6,-1,
+ 15,0,6,-1,
+ 6,0,1,-1,
+ 3,4,2,-1,
+ 4,5,2,-1,
+ 2,5,1,-1,
+ 5,6,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 3.2 1.1,
+		 -3.5 1.8 1.1,
+		 -3.79341 1.8 1.04132,
+		 -3.79341 3.2 1.04132,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 1.8 0.8,
+		 -3.5 3.2 0.8,
+		 -3.79341 3.2 0.741319,
+		 -3.79341 1.8 0.741319,
+		]
+	}
+coordIndex [
+ 2,1,3,-1,
+ 1,0,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.97058 3.2 0.0545869,
+		 -4.1389 3.2 -0.207972,
+		 -4.43777 3.2 -0.297087,
+		 -4.97942 3.2 -0.297087,
+		 -4.92058 3.2 -0.0029129,
+		 -4.37894 3.2 -0.0029129,
+		 -4.28628 3.2 0.0533283,
+		 -4.25277 3.2 0.156409,
+		 -4.17235 3.2 0.692557,
+		 -4.03799 3.2 0.926823,
+		 -3.79341 3.2 1.04132,
+		 -3.5 3.2 1.1,
+		 -3.5 3.2 0.8,
+		 -3.79341 3.2 0.741319,
+		 -3.86558 3.2 0.681317,
+		 -3.89016 3.2 0.590736,
+		]
+	}
+coordIndex [
+ 13,10,12,-1,
+ 10,11,12,-1,
+ 8,0,7,-1,
+ 0,1,7,-1,
+ 7,1,6,-1,
+ 6,1,5,-1,
+ 1,2,5,-1,
+ 5,2,4,-1,
+ 2,3,4,-1,
+ 9,10,13,-1,
+ 9,13,14,-1,
+ 9,14,15,-1,
+ 9,15,0,-1,
+ 9,0,8,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -4.25277 1.8 0.156409,
+		 -4.28628 1.8 0.0533283,
+		 -4.37894 1.8 -0.0029129,
+		 -4.92058 1.8 -0.0029129,
+		 -4.97942 1.8 -0.297087,
+		 -4.43777 1.8 -0.297087,
+		 -4.1389 1.8 -0.207972,
+		 -3.97058 1.8 0.0545869,
+		 -3.89016 1.8 0.590736,
+		 -3.86558 1.8 0.681317,
+		 -3.79341 1.8 0.741319,
+		 -3.5 1.8 0.8,
+		 -3.5 1.8 1.1,
+		 -3.79341 1.8 1.04132,
+		 -4.03799 1.8 0.926823,
+		 -4.17235 1.8 0.692557,
+		]
+	}
+coordIndex [
+ 11,12,10,-1,
+ 12,13,10,-1,
+ 10,13,9,-1,
+ 13,14,9,-1,
+ 9,14,8,-1,
+ 8,14,7,-1,
+ 14,15,7,-1,
+ 7,15,6,-1,
+ 15,0,6,-1,
+ 6,0,1,-1,
+ 3,4,2,-1,
+ 4,5,2,-1,
+ 2,5,1,-1,
+ 5,6,1,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+	material DEF _material1 Material {
+		diffuseColor  0 0 0
+	}
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.5 4.9 0,
+		 3.3 5.1 0,
+		 3.3 5.1 1.4,
+		 3.4 5 1.5,
+		 3.5 4.9 1.4,
+		]
+	}
+coordIndex [
+ 0,1,4,-1,
+ 1,2,4,-1,
+ 4,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.3 5.1 0,
+		 -3.5 4.9 0,
+		 -3.5 4.9 1.4,
+		 -3.4 5 1.5,
+		 -3.3 5.1 1.4,
+		]
+	}
+coordIndex [
+ 0,1,4,-1,
+ 1,2,4,-1,
+ 4,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.3 5.1 1.4,
+		 3.3 5.1 1.4,
+		 3.3 5.1 0,
+		 -3.3 5.1 0,
+		]
+	}
+coordIndex [
+ 3,0,2,-1,
+ 0,1,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.3 5.1 1.4,
+		 3.3 5.1 1.4,
+		 3.4 5 1.5,
+		 3.3 4.9 1.6,
+		 -3.3 4.9 1.6,
+		 -3.4 5 1.5,
+		]
+	}
+coordIndex [
+ 3,1,4,-1,
+ 1,0,4,-1,
+ 4,0,5,-1,
+ 1,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.3 -5.1 0,
+		 3.5 -4.9 0,
+		 3.5 -4.9 1.4,
+		 3.4 -5 1.5,
+		 3.3 -5.1 1.4,
+		]
+	}
+coordIndex [
+ 0,1,4,-1,
+ 1,2,4,-1,
+ 4,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.5 1.8 0.8,
+		 3.5 1.8 1.1,
+		 3.5 3.2 1.1,
+		 3.5 3.2 0.8,
+		 3.5 -3.2 0.8,
+		 3.5 -3.2 1.1,
+		 3.5 -1.8 1.1,
+		 3.5 -1.8 0.8,
+		 3.5 -4.9 0,
+		 3.5 4.9 0,
+		 3.5 4.9 1.4,
+		 3.5 -4.9 1.4,
+		]
+	}
+coordIndex [
+ 7,0,6,-1,
+ 0,1,6,-1,
+ 3,9,2,-1,
+ 9,10,2,-1,
+ 11,8,4,-1,
+ 11,4,5,-1,
+ 11,5,6,-1,
+ 11,6,1,-1,
+ 11,1,2,-1,
+ 11,2,10,-1,
+ 8,9,3,-1,
+ 8,3,0,-1,
+ 8,0,7,-1,
+ 8,7,4,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 3.4 -5 1.5,
+		 3.3 -4.9 1.6,
+		 3.3 4.9 1.6,
+		 3.4 5 1.5,
+		 3.5 4.9 1.4,
+		 3.5 -4.9 1.4,
+		]
+	}
+coordIndex [
+ 1,5,2,-1,
+ 5,4,2,-1,
+ 2,4,3,-1,
+ 5,1,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 -4.9 0,
+		 -3.3 -5.1 0,
+		 -3.3 -5.1 1.4,
+		 -3.4 -5 1.5,
+		 -3.5 -4.9 1.4,
+		]
+	}
+coordIndex [
+ 0,1,4,-1,
+ 1,2,4,-1,
+ 4,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 3.2 1.1,
+		 -3.5 1.8 1.1,
+		 -3.5 1.8 0.8,
+		 -3.5 3.2 0.8,
+		 -3.5 -1.8 1.1,
+		 -3.5 -3.2 1.1,
+		 -3.5 -3.2 0.8,
+		 -3.5 -1.8 0.8,
+		 -3.5 -4.9 1.4,
+		 -3.5 4.9 1.4,
+		 -3.5 4.9 0,
+		 -3.5 -4.9 0,
+		]
+	}
+coordIndex [
+ 2,7,1,-1,
+ 7,4,1,-1,
+ 6,11,5,-1,
+ 11,8,5,-1,
+ 9,10,3,-1,
+ 9,3,0,-1,
+ 9,0,1,-1,
+ 9,1,4,-1,
+ 9,4,5,-1,
+ 9,5,8,-1,
+ 10,11,6,-1,
+ 10,6,7,-1,
+ 10,7,2,-1,
+ 10,2,3,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 -4.9 1.4,
+		 -3.5 4.9 1.4,
+		 -3.4 5 1.5,
+		 -3.3 4.9 1.6,
+		 -3.3 -4.9 1.6,
+		 -3.4 -5 1.5,
+		]
+	}
+coordIndex [
+ 3,1,4,-1,
+ 1,0,4,-1,
+ 4,0,5,-1,
+ 1,3,2,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.3 -5.1 0,
+		 3.3 -5.1 0,
+		 3.3 -5.1 1.4,
+		 -3.3 -5.1 1.4,
+		]
+	}
+coordIndex [
+ 1,2,0,-1,
+ 2,3,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.4 -5 1.5,
+		 -3.3 -4.9 1.6,
+		 3.3 -4.9 1.6,
+		 3.4 -5 1.5,
+		 3.3 -5.1 1.4,
+		 -3.3 -5.1 1.4,
+		]
+	}
+coordIndex [
+ 1,5,2,-1,
+ 5,4,2,-1,
+ 2,4,3,-1,
+ 5,1,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -3.5 -4.9 0,
+		 -3.5 4.9 0,
+		 -3.3 5.1 0,
+		 3.3 5.1 0,
+		 3.5 4.9 0,
+		 3.5 -4.9 0,
+		 3.3 -5.1 0,
+		 -3.3 -5.1 0,
+		]
+	}
+coordIndex [
+ 2,3,1,-1,
+ 3,4,1,-1,
+ 1,4,0,-1,
+ 4,5,0,-1,
+ 0,5,7,-1,
+ 5,6,7,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -1.74645 3.44645 1.5,
+		 -2.1 3.3 1.5,
+		 -2.45355 3.44645 1.5,
+		 -2.6 3.8 1.5,
+		 -2.45355 4.15355 1.5,
+		 -2.1 4.3 1.5,
+		 -1.74645 4.15355 1.5,
+		 -1.6 3.8 1.5,
+		]
+	}
+coordIndex [
+ 6,4,7,-1,
+ 4,3,7,-1,
+ 7,3,0,-1,
+ 3,2,0,-1,
+ 0,2,1,-1,
+ 4,6,5,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -1.6 3.8 1.6,
+		 -1.74645 4.15355 1.6,
+		 -2.1 4.3 1.6,
+		 -2.45355 4.15355 1.6,
+		 -2.6 3.8 1.6,
+		 -2.6 3.8 1.5,
+		 -2.45355 4.15355 1.5,
+		 -2.1 4.3 1.5,
+		 -1.74645 4.15355 1.5,
+		 -1.6 3.8 1.5,
+		]
+	}
+normal Normal {
+	vector	[
+		-1 -0 -0,
+		-0.707107 -0.707107 -0,
+		-6.12303e-017 -1 -0,
+		0.707107 -0.707107 -0,
+		1 -1.22461e-016 -0,
+		1 -1.22461e-016 -0,
+		0.707107 -0.707107 -0,
+		-6.12303e-017 -1 -0,
+		-0.707107 -0.707107 -0,
+		-1 -0 -0,
+		]
+	}
+coordIndex [
+ 4,5,3,-1,
+ 5,6,3,-1,
+ 3,6,2,-1,
+ 6,7,2,-1,
+ 2,7,1,-1,
+ 7,8,1,-1,
+ 1,8,0,-1,
+ 8,9,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material0
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -2.6 3.8 1.6,
+		 -2.45355 3.44645 1.6,
+		 -2.1 3.3 1.6,
+		 -1.74645 3.44645 1.6,
+		 -1.6 3.8 1.6,
+		 -1.6 3.8 1.5,
+		 -1.74645 3.44645 1.5,
+		 -2.1 3.3 1.5,
+		 -2.45355 3.44645 1.5,
+		 -2.6 3.8 1.5,
+		]
+	}
+normal Normal {
+	vector	[
+		1 -1.22461e-016 -0,
+		0.707107 0.707107 0,
+		1.83691e-016 1 0,
+		-0.707107 0.707107 -0,
+		-1 2.44921e-016 -0,
+		-1 2.44921e-016 -0,
+		-0.707107 0.707107 -0,
+		1.83691e-016 1 0,
+		0.707107 0.707107 0,
+		1 -1.22461e-016 -0,
+		]
+	}
+coordIndex [
+ 4,5,3,-1,
+ 5,6,3,-1,
+ 3,6,2,-1,
+ 6,7,2,-1,
+ 2,7,1,-1,
+ 7,8,1,-1,
+ 1,8,0,-1,
+ 8,9,0,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+material USE _material1
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+	point	[
+		 -2.45355 3.44645 1.6,
+		 -2.1 3.3 1.6,
+		 -1.74645 3.44645 1.6,
+		 -1.6 3.8 1.6,
+		 -1.74645 4.15355 1.6,
+		 -2.1 4.3 1.6,
+		 -2.45355 4.15355 1.6,
+		 -2.6 3.8 1.6,
+		 -3.3 4.9 1.6,
+		 3.3 4.9 1.6,
+		 3.3 -4.9 1.6,
+		 -3.3 -4.9 1.6,
+		]
+	}
+coordIndex [
+ 8,11,7,-1,
+ 8,7,6,-1,
+ 8,6,5,-1,
+ 8,5,9,-1,
+ 9,5,4,-1,
+ 9,4,3,-1,
+ 9,3,2,-1,
+ 9,2,1,-1,
+ 9,1,11,-1,
+ 9,11,10,-1,
+ 11,1,0,-1,
+ 11,0,7,-1,
+]
+
+}
+}
+Shape {
+appearance Appearance {
+	material DEF _material2 Material {
+		emissiveColor 0 0 0
+	}
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 -1.8 -0.0029129,
+		 4.92058 -1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 -3.2 -0.0029129,
+		 4.92058 -3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 -1.8 -0.0029129,
+		 4.37894 -3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.92058 -1.8 -0.0029129,
+		 4.92058 -3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 -3.2 -0.297087,
+		 4.97942 -3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.92058 -3.2 -0.0029129,
+		 4.97942 -3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 -1.8 -0.297087,
+		 4.97942 -1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 -3.2 -0.297087,
+		 4.43777 -1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.97942 -3.2 -0.297087,
+		 4.97942 -1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.97942 -1.8 -0.297087,
+		 4.92058 -1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 -1.8 -0.0029129,
+		 4.28628 -1.8 0.0533283,
+		 4.25277 -1.8 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 -3.2 -0.0029129,
+		 4.28628 -3.2 0.0533283,
+		 4.25277 -3.2 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.25277 -1.8 0.156409,
+		 4.25277 -3.2 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 -3.2 -0.297087,
+		 4.1389 -3.2 -0.207972,
+		 3.97058 -3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 -1.8 -0.297087,
+		 4.1389 -1.8 -0.207972,
+		 3.97058 -1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.97058 -3.2 0.0545869,
+		 3.97058 -1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.17235 -1.8 0.692557,
+		 4.25277 -1.8 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.17235 -3.2 0.692557,
+		 4.25277 -3.2 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.17235 -1.8 0.692557,
+		 4.17235 -3.2 0.692557,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.89016 -3.2 0.590736,
+		 3.97058 -3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.89016 -1.8 0.590736,
+		 3.97058 -1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.89016 -3.2 0.590736,
+		 3.89016 -1.8 0.590736,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 -1.8 1.04132,
+		 4.03799 -1.8 0.926823,
+		 4.17235 -1.8 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 -3.2 1.04132,
+		 4.03799 -3.2 0.926823,
+		 4.17235 -3.2 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 -1.8 1.04132,
+		 3.79341 -3.2 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 -3.2 0.741319,
+		 3.86558 -3.2 0.681317,
+		 3.89016 -3.2 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 -1.8 0.741319,
+		 3.86558 -1.8 0.681317,
+		 3.89016 -1.8 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 -3.2 0.741319,
+		 3.79341 -1.8 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 3.2 -0.0029129,
+		 4.92058 3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 1.8 -0.0029129,
+		 4.92058 1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 3.2 -0.0029129,
+		 4.37894 1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.92058 3.2 -0.0029129,
+		 4.92058 1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 1.8 -0.297087,
+		 4.97942 1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.92058 1.8 -0.0029129,
+		 4.97942 1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 3.2 -0.297087,
+		 4.97942 3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 1.8 -0.297087,
+		 4.43777 3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.97942 1.8 -0.297087,
+		 4.97942 3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.97942 3.2 -0.297087,
+		 4.92058 3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 3.2 -0.0029129,
+		 4.28628 3.2 0.0533283,
+		 4.25277 3.2 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.37894 1.8 -0.0029129,
+		 4.28628 1.8 0.0533283,
+		 4.25277 1.8 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.25277 3.2 0.156409,
+		 4.25277 1.8 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 1.8 -0.297087,
+		 4.1389 1.8 -0.207972,
+		 3.97058 1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.43777 3.2 -0.297087,
+		 4.1389 3.2 -0.207972,
+		 3.97058 3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.97058 1.8 0.0545869,
+		 3.97058 3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.17235 3.2 0.692557,
+		 4.25277 3.2 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.17235 1.8 0.692557,
+		 4.25277 1.8 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 4.17235 3.2 0.692557,
+		 4.17235 1.8 0.692557,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.89016 1.8 0.590736,
+		 3.97058 1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.89016 3.2 0.590736,
+		 3.97058 3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.89016 1.8 0.590736,
+		 3.89016 3.2 0.590736,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 3.2 1.04132,
+		 4.03799 3.2 0.926823,
+		 4.17235 3.2 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 1.8 1.04132,
+		 4.03799 1.8 0.926823,
+		 4.17235 1.8 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 3.2 1.04132,
+		 3.79341 1.8 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 1.8 0.741319,
+		 3.86558 1.8 0.681317,
+		 3.89016 1.8 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 3.2 0.741319,
+		 3.86558 3.2 0.681317,
+		 3.89016 3.2 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.79341 1.8 0.741319,
+		 3.79341 3.2 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -1.8 1.1,
+		 3.5 -3.2 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -3.2 1.1,
+		 3.5 -3.2 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -3.2 0.8,
+		 3.5 -1.8 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -1.8 0.8,
+		 3.5 -1.8 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 3.2 1.1,
+		 3.5 1.8 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 1.8 1.1,
+		 3.5 1.8 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 1.8 0.8,
+		 3.5 3.2 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 3.2 0.8,
+		 3.5 3.2 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -3.2 1.1,
+		 3.79341 -3.2 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -1.8 1.1,
+		 3.79341 -1.8 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -1.8 0.8,
+		 3.79341 -1.8 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -3.2 0.8,
+		 3.79341 -3.2 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 1.8 1.1,
+		 3.79341 1.8 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 3.2 1.1,
+		 3.79341 3.2 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 3.2 0.8,
+		 3.79341 3.2 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 1.8 0.8,
+		 3.79341 1.8 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 -1.8 -0.0029129,
+		 -4.92058 -1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 -3.2 -0.0029129,
+		 -4.92058 -3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 -1.8 -0.0029129,
+		 -4.37894 -3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.92058 -1.8 -0.0029129,
+		 -4.92058 -3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 -3.2 -0.297087,
+		 -4.97942 -3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.92058 -3.2 -0.0029129,
+		 -4.97942 -3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 -1.8 -0.297087,
+		 -4.97942 -1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 -3.2 -0.297087,
+		 -4.43777 -1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.97942 -3.2 -0.297087,
+		 -4.97942 -1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.97942 -1.8 -0.297087,
+		 -4.92058 -1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 -1.8 -0.0029129,
+		 -4.28628 -1.8 0.0533283,
+		 -4.25277 -1.8 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 -3.2 -0.0029129,
+		 -4.28628 -3.2 0.0533283,
+		 -4.25277 -3.2 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.25277 -1.8 0.156409,
+		 -4.25277 -3.2 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 -3.2 -0.297087,
+		 -4.1389 -3.2 -0.207972,
+		 -3.97058 -3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 -1.8 -0.297087,
+		 -4.1389 -1.8 -0.207972,
+		 -3.97058 -1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.97058 -3.2 0.0545869,
+		 -3.97058 -1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.17235 -1.8 0.692557,
+		 -4.25277 -1.8 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.17235 -3.2 0.692557,
+		 -4.25277 -3.2 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.17235 -1.8 0.692557,
+		 -4.17235 -3.2 0.692557,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.89016 -3.2 0.590736,
+		 -3.97058 -3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.89016 -1.8 0.590736,
+		 -3.97058 -1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.89016 -3.2 0.590736,
+		 -3.89016 -1.8 0.590736,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 -1.8 1.04132,
+		 -4.03799 -1.8 0.926823,
+		 -4.17235 -1.8 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 -3.2 1.04132,
+		 -4.03799 -3.2 0.926823,
+		 -4.17235 -3.2 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 -1.8 1.04132,
+		 -3.79341 -3.2 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 -3.2 0.741319,
+		 -3.86558 -3.2 0.681317,
+		 -3.89016 -3.2 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 -1.8 0.741319,
+		 -3.86558 -1.8 0.681317,
+		 -3.89016 -1.8 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 -3.2 0.741319,
+		 -3.79341 -1.8 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 3.2 -0.0029129,
+		 -4.92058 3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 1.8 -0.0029129,
+		 -4.92058 1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 3.2 -0.0029129,
+		 -4.37894 1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.92058 3.2 -0.0029129,
+		 -4.92058 1.8 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 1.8 -0.297087,
+		 -4.97942 1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.92058 1.8 -0.0029129,
+		 -4.97942 1.8 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 3.2 -0.297087,
+		 -4.97942 3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 1.8 -0.297087,
+		 -4.43777 3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.97942 1.8 -0.297087,
+		 -4.97942 3.2 -0.297087,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.97942 3.2 -0.297087,
+		 -4.92058 3.2 -0.0029129,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 3.2 -0.0029129,
+		 -4.28628 3.2 0.0533283,
+		 -4.25277 3.2 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.37894 1.8 -0.0029129,
+		 -4.28628 1.8 0.0533283,
+		 -4.25277 1.8 0.156409,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.25277 3.2 0.156409,
+		 -4.25277 1.8 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 1.8 -0.297087,
+		 -4.1389 1.8 -0.207972,
+		 -3.97058 1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.43777 3.2 -0.297087,
+		 -4.1389 3.2 -0.207972,
+		 -3.97058 3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.97058 1.8 0.0545869,
+		 -3.97058 3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.17235 3.2 0.692557,
+		 -4.25277 3.2 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.17235 1.8 0.692557,
+		 -4.25277 1.8 0.156409,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -4.17235 3.2 0.692557,
+		 -4.17235 1.8 0.692557,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.89016 1.8 0.590736,
+		 -3.97058 1.8 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.89016 3.2 0.590736,
+		 -3.97058 3.2 0.0545869,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.89016 1.8 0.590736,
+		 -3.89016 3.2 0.590736,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 3.2 1.04132,
+		 -4.03799 3.2 0.926823,
+		 -4.17235 3.2 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 1.8 1.04132,
+		 -4.03799 1.8 0.926823,
+		 -4.17235 1.8 0.692557,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 3.2 1.04132,
+		 -3.79341 1.8 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 1.8 0.741319,
+		 -3.86558 1.8 0.681317,
+		 -3.89016 1.8 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 3.2 0.741319,
+		 -3.86558 3.2 0.681317,
+		 -3.89016 3.2 0.590736,
+		]
+}
+	coordIndex	[0 1 2  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.79341 1.8 0.741319,
+		 -3.79341 3.2 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -1.8 1.1,
+		 -3.5 -3.2 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -3.2 1.1,
+		 -3.5 -3.2 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -3.2 0.8,
+		 -3.5 -1.8 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -1.8 0.8,
+		 -3.5 -1.8 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 3.2 1.1,
+		 -3.5 1.8 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 1.8 1.1,
+		 -3.5 1.8 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 1.8 0.8,
+		 -3.5 3.2 0.8,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 3.2 0.8,
+		 -3.5 3.2 1.1,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -3.2 1.1,
+		 -3.79341 -3.2 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -1.8 1.1,
+		 -3.79341 -1.8 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -1.8 0.8,
+		 -3.79341 -1.8 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -3.2 0.8,
+		 -3.79341 -3.2 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 1.8 1.1,
+		 -3.79341 1.8 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 3.2 1.1,
+		 -3.79341 3.2 1.04132,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 3.2 0.8,
+		 -3.79341 3.2 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 1.8 0.8,
+		 -3.79341 1.8 0.741319,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 4.9 1.6,
+		 -3.3 4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 -4.9 1.6,
+		 3.3 4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 -4.9 1.6,
+		 3.3 -4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 4.9 1.6,
+		 -3.3 -4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 5.1 0,
+		 3.3 5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 4.9 0,
+		 3.5 4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 4.9 0,
+		 3.3 5.1 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 5.1 1.4,
+		 3.4 5 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.4 5 1.5,
+		 3.5 4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.4 5 1.5,
+		 3.3 4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 4.9 0,
+		 -3.5 4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 5.1 0,
+		 -3.3 5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 5.1 0,
+		 -3.5 4.9 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 4.9 1.4,
+		 -3.4 5 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.4 5 1.5,
+		 -3.3 5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 4.9 1.6,
+		 -3.4 5 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 5.1 0,
+		 -3.3 5.1 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 5.1 1.4,
+		 -3.3 5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -4.9 0,
+		 3.5 -4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 -5.1 0,
+		 3.3 -5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.3 -5.1 0,
+		 3.5 -4.9 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -4.9 1.4,
+		 3.4 -5 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.4 -5 1.5,
+		 3.3 -5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.4 -5 1.5,
+		 3.3 -4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -4.9 0,
+		 3.5 4.9 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 3.5 -4.9 1.4,
+		 3.5 4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 -5.1 0,
+		 -3.3 -5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -4.9 0,
+		 -3.5 -4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 -4.9 0,
+		 -3.3 -5.1 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 -5.1 1.4,
+		 -3.4 -5 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.4 -5 1.5,
+		 -3.5 -4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 4.9 1.4,
+		 -3.5 -4.9 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.5 4.9 0,
+		 -3.5 -4.9 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.4 -5 1.5,
+		 -3.3 -4.9 1.6,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 -5.1 0,
+		 3.3 -5.1 0,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -3.3 -5.1 1.4,
+		 3.3 -5.1 1.4,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -1.6 3.8 1.5,
+		 -1.74645 4.15355 1.5,
+		 -2.1 4.3 1.5,
+		 -2.45355 4.15355 1.5,
+		 -2.6 3.8 1.5,
+		]
+}
+	coordIndex	[0 1 2 3 4  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -2.6 3.8 1.5,
+		 -2.45355 3.44645 1.5,
+		 -2.1 3.3 1.5,
+		 -1.74645 3.44645 1.5,
+		 -1.6 3.8 1.5,
+		]
+}
+	coordIndex	[0 1 2 3 4  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -1.6 3.8 1.6,
+		 -1.74645 4.15355 1.6,
+		 -2.1 4.3 1.6,
+		 -2.45355 4.15355 1.6,
+		 -2.6 3.8 1.6,
+		]
+}
+	coordIndex	[0 1 2 3 4  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -2.6 3.8 1.6,
+		 -2.45355 3.44645 1.6,
+		 -2.1 3.3 1.6,
+		 -1.74645 3.44645 1.6,
+		 -1.6 3.8 1.6,
+		]
+}
+	coordIndex	[0 1 2 3 4  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -1.6 3.8 1.6,
+		 -1.6 3.8 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+Shape {
+appearance Appearance {
+material USE _material2
+}
+geometry IndexedLineSet {
+	coord Coordinate {
+point	[
+		 -2.6 3.8 1.6,
+		 -2.6 3.8 1.5,
+		]
+}
+	coordIndex	[0 1  -1 ]
+}
+}
+	]
+}
+	]
+}
+	]
+}
+	]
+}
+	]
+}
+
