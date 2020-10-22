@@ -1,0 +1,49 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT24CM02
+D I2C EEPROM - 2Mbits
+$ENDCMP
+#
+$CMP BTS724G
+D Smart High-Side Power Switch
+K High Side Switch
+F https://www.infineon.com/dgdl/Infineon-BTS724G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3a2f1030ff1
+$ENDCMP
+#
+$CMP ISO1212
+D Dual-channel Isolated 24-V to 60-V digital input receiver for digital input modules
+K Digital Input Receiver
+F https://www.ti.com/lit/ds/symlink/iso1212.pdf?ts=1592597181161&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FISO1212
+$ENDCMP
+#
+$CMP ISOW7842
+D Quad-channel Digital Isolator with Integrated DC-DC Converter
+K Digital Isloator
+F https://www.ti.com/lit/ds/symlink/isow7842.pdf?ts=1592599600439&ref_url=https%253A%252F%252Fwww.google.hr%252F
+$ENDCMP
+#
+$CMP PIC18F45K22
+D Microcontroller Microchip
+K Microcontroller
+$ENDCMP
+#
+$CMP TPS16630
+D eFuse 6A
+K eFuse
+$ENDCMP
+#
+$CMP TPS25921A
+D eFuse 1.5A
+K eFuse
+$ENDCMP
+#
+$CMP YBSM6001
+D Bridge Rectifier
+$ENDCMP
+#
+$CMP mikroBUS_socket
+D Socket mikroBUS mikroElektronika
+K mikroBUS
+$ENDCMP
+#
+#End Doc Library

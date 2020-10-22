@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISOW7842
+D Quad-channel Digital Isolator with Integrated DC-DC Converter
+K Digital Isloator
+F https://www.ti.com/lit/ds/symlink/isow7842.pdf?ts=1592599600439&ref_url=https%253A%252F%252Fwww.google.hr%252F
+$ENDCMP
+#
+#End Doc Library
